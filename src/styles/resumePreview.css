@@ -1,0 +1,47 @@
+/* src/styles/resumePreview.css */
+
+.preview-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff8f5;
+  min-height: 100vh;
+}
+
+.resume-card {
+  background-color: #fdf6f1;
+  color: #1d2d2f;
+  border: 2px solid #ffb7a8;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.resume-card h1 {
+  font-size: 2rem;
+  color: #008080;
+  margin-bottom: 0.5rem;
+}
+
+.resume-card h2 {
+  margin-top: 1.5rem;
+  color: #f2877d;
+}
+
+.print-btn {
+  margin-top: 2rem;
+  padding: 12px 24px;
+  background-color: #ffb7a8;
+  color: #1d2d2f;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.print-btn:hover {
+  background-color: #f2877d;
+}

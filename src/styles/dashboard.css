@@ -1,0 +1,81 @@
+/* 🟡 Full screen background */
+.dashboard-container {
+  height: 100vh;
+  background-color: #fff4e6;
+  font-family: 'Segoe UI', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🟢 Navbar at top */
+.dashboard-navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #00897b;
+  border-bottom: 4px solid #00695c;
+}
+
+/* 🔵 Navbar button style */
+.dashboard-navbar button {
+  background-color: #ffffff;
+  color: #00897b;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dashboard-navbar button:hover {
+  background-color: #ffecd9;
+  color: #004d40;
+}
+
+/* 🟣 Center the card in the viewport */
+.dashboard-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: #ffffff;
+  max-width: 500px;
+  width: 90%;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* 💬 Welcome heading */
+.dashboard-card h1 {
+  color: #00897b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* 📧 Email info */
+.dashboard-card .user-email {
+  margin: 1rem 0;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* 🔘 Logout button */
+.actions button {
+  background-color: #00897b;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1.2rem;
+}
+
+.actions button:hover {
+  background-color: #00796b;
+}
