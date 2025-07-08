@@ -66,7 +66,7 @@ function Dashboard() {
         </button>
         <button
           onMouseEnter={() => speakOnHover("Edit Profile")}
-          onClick={() => navigate("/profile")}
+          onClick={() => navigate("/edit-profile")}
         >
           👤 Edit Profile
         </button>
