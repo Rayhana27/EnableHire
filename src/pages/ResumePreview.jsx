@@ -75,6 +75,8 @@ function ResumePreview() {
       <button onClick={handlePrint} className="print-btn">
         📄 Download PDF
       </button>
+      <ChatbotWidget />
+
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import ChatbotWidget from "../components/ChatbotWidget";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
@@ -82,6 +83,10 @@ function Dashboard() {
           <button onClick={handleLogout}>Logout</button>
         </div>
       </div>
+
+      
+      <ChatbotWidget />
+
     </div>
   );
 }
