@@ -1,3 +1,4 @@
+import ChatbotWidget from "../components/ChatbotWidget";
 import React, { useState } from "react";
 import "../styles/jobsearch.css";
 
@@ -228,6 +229,8 @@ function JobSearch() {
         ))}
         {filtered.length === 0 && <p>No matching jobs found.</p>}
       </div>
+      <ChatbotWidget />
+
     </div>
   );
 }
