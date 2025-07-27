@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import ResumeBuilder from "./pages/ResumeBuilder";
 import ResumePreview from "./pages/ResumePreview";
 import JobSearch from "./pages/JobSearch";
+import EditProfile from "./pages/EditProfile"; 
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Route path="/resume" element={<ResumeBuilder />} />
       <Route path="/preview" element={<ResumePreview />} />
       <Route path="/search-jobs" element={<JobSearch />} />
-
+      <Route path="/edit-profile" element={<EditProfile />} />
     </Routes>
   );
 }
